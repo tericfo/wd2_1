@@ -41,7 +41,7 @@ a {
 
 .pet .ab, .ba {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
 }
 
 h2 {
@@ -52,4 +52,17 @@ h2 {
 .tri p {
     display: flex;
     justify-content: center;
+    border: 25px;
+    padding: 30px;
+
+}
+
+.ctyri img {
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+}
+
+.ctyri .v {
+    margin-bottom: 15px;
 }
