@@ -5,9 +5,14 @@
 }
 
 body {
-    padding: 30px;
+    padding: 15px;
     font-family: sans-serif;
     background-color: rgb(243, 244, 246);
+}
+
+.ramecek {
+    background: white;
+    border-radius: 8px;
 }
 
 .jedna h1 {
@@ -15,23 +20,40 @@ body {
     font-size: 30px;
 }
 
-.jedna p .a {
+.jedna .a {
     color: rgb(31, 41, 55);
     font-size: 20px;
 }
 
+.q {
+    padding-bottom: 12px;
+}
+
+.w {
+    padding-bottom: 12px;
+}
+
+.jedna {
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 30px;
+}
+
 .jedna img {
     border-radius: 50%;
+    border: solid rgb(79, 70, 229) 4px;
 }
 
 .jedna .b {
     margin-bottom: 25px;
+    color: rgb(98, 99, 101);
 }
 
 .dva {
     display: flex;
     justify-content: center;
-    margin-bottom: 40px;
+    margin-bottom: 30px;
+    padding-top: 30px;
 }
 
 a {
@@ -60,7 +82,6 @@ h2 {
 .ctyri img {
     display: flex;
     align-items: center;
-    padding-left: 20px;
 }
 
 .ctyri .v {
